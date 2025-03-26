@@ -1,57 +1,54 @@
-# Terraform-AWS
-Terraform AWS Infrastructure Project
-This project provisions AWS infrastructure using Terraform. It includes VPC, subnets, security groups, and EC2 instances as modular components.
+Yes! You can add command boxes in your README.md file by using triple backticks (```) for code blocks. This is how you do it:
 
-🚀 Features
-Infrastructure as Code (IaC) using Terraform
-
-Automated provisioning of VPC, Subnets, Security Groups, and EC2 Instances
-
-Modular Terraform structure for reusability and scalability
-
-Customizable variables for flexible configurations
-
-📂 Project Structure
-css
+Example:
+md
 Copy
 Edit
-terraform-module-testing/
-│── module/
-│   ├── assignment2/
-│   │   ├── ec2/
-│   │   │   ├── main.tf
-│   │   │   ├── outputs.tf
-│   │   │   ├── variables.tf
-│   │   ├── security_group/
-│   │   │   ├── main.tf
-│   │   │   ├── outputs.tf
-│   │   │   ├── variables.tf
-│   │   ├── subnet/
-│   │   │   ├── main.tf
-│   │   │   ├── outputs.tf
-│   │   │   ├── variables.tf
-│   │   ├── vpc/
-│   │   │   ├── main.tf
-│   │   │   ├── outputs.tf
-│   │   │   ├── variables.tf
-│   ├── provider.tf
-│   ├── locals.tf
-│   ├── web_main.tf
-│   ├── README.md
-🛠 Prerequisites
-Ensure you have the following installed:
-
-Terraform → Install Guide
-
-AWS CLI → Install Guide
-
-AWS IAM user with proper permissions
-
-🚀 Setup & Usage
-1️⃣ Clone the Repository
+### **1️⃣ Clone the Repository**  
+```sh
+git clone https://github.com/Prasadrasal2002/Terraform-AWS.git
+cd Terraform-AWS
+2️⃣ Initialize Terraform
 sh
 Copy
 Edit
+terraform init
+yaml
+Copy
+Edit
+
+This will display the command in a **code block** format on GitHub.  
+
+---
+
+### **Final README Example with Command Boxes**
+```md
+# Terraform AWS Infrastructure Project
+
+This project provisions AWS infrastructure using **Terraform**. It includes VPC, subnets, security groups, and EC2 instances as modular components.
+
+## **🚀 Features**
+- Infrastructure as Code (**IaC**) using **Terraform**
+- Automated provisioning of **VPC, Subnets, Security Groups, and EC2 Instances**
+- Modular Terraform structure for **reusability** and **scalability**
+- Customizable **variables** for flexible configurations
+
+## **📂 Project Structure**
+terraform-module-testing/ │── module/ │ ├── assignment2/ │ │ ├── ec2/ │ │ │ ├── main.tf │ │ │ ├── outputs.tf │ │ │ ├── variables.tf │ │ ├── security_group/ │ │ │ ├── main.tf │ │ │ ├── outputs.tf │ │ │ ├── variables.tf │ │ ├── subnet/ │ │ │ ├── main.tf │ │ │ ├── outputs.tf │ │ │ ├── variables.tf │ │ ├── vpc/ │ │ │ ├── main.tf │ │ │ ├── outputs.tf │ │ │ ├── variables.tf │ ├── provider.tf │ ├── locals.tf │ ├── web_main.tf │ ├── README.md
+
+markdown
+Copy
+Edit
+
+## **🛠 Prerequisites**
+Ensure you have the following installed:
+- **Terraform** → [Install Guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
+- **AWS CLI** → [Install Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+- AWS IAM user with proper permissions
+
+## **🚀 Setup & Usage**
+### **1️⃣ Clone the Repository**
+```sh
 git clone https://github.com/Prasadrasal2002/Terraform-AWS.git
 cd Terraform-AWS
 2️⃣ Configure AWS Credentials
@@ -115,10 +112,15 @@ Always review the terraform plan output before applying changes.
 📄 License
 This project is open-source and available under the MIT License.
 
-This README is GitHub-friendly with proper markdown formatting, making it easy for others to understand and use your project. Let me know if you need any modifications! 🚀
+pgsql
+Copy
+Edit
+
+This will display all **commands in a separate box** on GitHub. Let me know if you need any further modifications! 🚀
 
 
-### **1️⃣ Clone the Repository**  
-```sh
-git clone https://github.com/Prasadrasal2002/Terraform-AWS.git
-cd Terraform-AWS
+
+
+
+
+
