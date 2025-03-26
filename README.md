@@ -3,7 +3,7 @@
 ## Prerequisites  
 Ensure you have the following installed:  
 - [Terraform](https://developer.hashicorp.com/terraform/downloads)  
-- AWS CLI installed and configured (AWS CLI Installation)  
+- AWS CLI installed and configured (Download AWS CLI) 
 - Git installed (`git --version`)  
 
 ## How to Use  
