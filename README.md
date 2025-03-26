@@ -121,6 +121,29 @@ This will display all **commands in a separate box** on GitHub. Let me know if y
 
 
 
+terraform-module-testing/
+│── module/
+│   ├── assignment2/
+│   │   ├── ec2/
+│   │   │   ├── main.tf
+│   │   │   ├── outputs.tf
+│   │   │   ├── variables.tf
+│   │   ├── security_group/
+│   │   │   ├── main.tf
+│   │   │   ├── outputs.tf
+│   │   │   ├── variables.tf
+│   │   ├── subnet/
+│   │   │   ├── main.tf
+│   │   │   ├── outputs.tf
+│   │   │   ├── variables.tf
+│   │   ├── vpc/
+│   │   │   ├── main.tf
+│   │   │   ├── outputs.tf
+│   │   │   ├── variables.tf
+│   ├── provider.tf
+│   ├── locals.tf
+│   ├── web_main.tf
+│   ├── README.md
 
 
 
