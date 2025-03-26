@@ -18,6 +18,7 @@ The project is structured to enable modular deployment of AWS resources. Each re
 
 **5)** Automated Deployment: Reduces manual intervention by defining infrastructure configurations in Terraform.
 
+
 **Components Explained**
 
 **1. VPC (Virtual Private Cloud)**
