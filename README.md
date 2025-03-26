@@ -15,6 +15,6 @@ cd Terraform-AWS
 
 
 2️⃣ Initialize Terraform
-```bash
+
 terraform init
 
