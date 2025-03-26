@@ -4,6 +4,7 @@
 Ensure you have the following installed:  
 --[Terraform](https://developer.hashicorp.com/terraform/downloads)  
 --[Download AWS CLI](https://aws.amazon.com/cli/) 
+
 -- Git installed (`git --version`)  
 
 ## How to Use  
