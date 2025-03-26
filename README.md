@@ -14,7 +14,7 @@ cd Terraform-AWS
 
 
 
-2️⃣ Initialize Terraform
+**2️⃣ Initialize Terraform**
 
 terraform init
 
