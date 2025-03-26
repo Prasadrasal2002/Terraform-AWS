@@ -12,3 +12,8 @@ Ensure you have the following installed:
 git clone https://github.com/your-github-username/Terraform-AWS.git
 cd Terraform-AWS
 
+
+2️⃣ Initialize Terraform
+```bash
+terraform init
+
