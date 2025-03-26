@@ -9,9 +9,13 @@ The project is structured to enable modular deployment of AWS resources. Each re
 **Key Features**
 
 **1)** Infrastructure as Code (IaC): Uses Terraform to automate AWS resource provisioning.
+
 **2)** Modular Design: Organized into separate modules for VPC, subnets, security groups, and EC2 instances.
+
 **3)** Scalability: Supports dynamic adjustments of resource configurations through variables.
+
 **4)** Security Best Practices: Implements security groups to control access to AWS resources.
+
 **5)** Automated Deployment: Reduces manual intervention by defining infrastructure configurations in Terraform.
 
 **Components Explained**
